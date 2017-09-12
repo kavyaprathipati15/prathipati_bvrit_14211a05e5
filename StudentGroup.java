@@ -89,6 +89,9 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void add(Student student, int index) {
+		students.add("xxx",3);
+		if(students==null)
+				throws new IllegalArgumentException
 		// Add your implementation here
 	}
 
@@ -100,6 +103,8 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
+		System.out.println("Enter the element to be removed:",student);
+		Student.remove(student);
 	}
 
 	@Override
@@ -124,6 +129,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void bubbleSort() {
+		for(i=0)
 		// Add your implementation here
 	}
 
